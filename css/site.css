@@ -1,8 +1,8 @@
-.crunk {
+.lab_list {
     color:red;
 }
 
-.gregg {
+.lab_link {
   color:brown;
 }
 
@@ -12,4 +12,21 @@
 
 #wow {
   color:yellow;
+}
+
+.main_web {
+  background-color: #64b9db;
+  border: solid 1px #0d6c38;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 20px;
+  color:green;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "courier new";
+  margin-left: 10px;
 }
