@@ -1,11 +1,20 @@
 h1 {
-    color:teal;
-    font-size: 150%;
+    color: teal;
+    font-size: 200%;
 }
 
 p {
-    color:teal;
-    font-size: 150%;
     font-family: "arial";
     text-indent: 30px;
+    margin-left: 10px;
+}
+
+#content {
+  background-color: #64b9db;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #0d6c38;
+  font-size: 16px;
 }
