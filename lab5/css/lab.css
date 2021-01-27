@@ -1,0 +1,16 @@
+h1 {
+  font-size: 200%;
+  color: blue;
+}
+
+div {
+  border: solid 5px white;
+}
+
+.main_web {
+  background-color: #a08ce6;
+}
+
+p {
+  color: cyan;
+}
