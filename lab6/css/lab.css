@@ -1,0 +1,22 @@
+h1 {
+  font-size: 200%;
+  color: yellow;
+}
+
+h2 {
+  font-size: 300%;
+  color: red;
+}
+
+.output {
+  border: solid 5px white;
+}
+
+.main_web {
+  color: white;
+  background-color: black;
+}
+
+p {
+  color: white;
+}
