@@ -1,0 +1,22 @@
+h1 {
+  font-size: 200%;
+  color: purple;
+}
+
+h2 {
+  font-size: 300%;
+  color: green;
+}
+
+.output {
+  border: solid 5px white;
+}
+
+.main_web {
+  color: black;
+  background-color: chartreuse;
+}
+
+p {
+  color: blue;
+}
