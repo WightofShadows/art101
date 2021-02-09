@@ -1,0 +1,20 @@
+h1 {
+  font-size: 200%;
+  color: teal;
+  margin-left: 10px;
+}
+
+.main_web {
+  border: dotted 10px green;
+  color: purple;
+  background-color: lightblue;
+}
+
+#mainer_web {
+  background-color: darkblue;
+}
+
+p {
+  color: violet;
+  margin-left: 20px;
+}
