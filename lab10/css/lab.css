@@ -1,0 +1,35 @@
+h1 {
+  font-size: 200%;
+  color: gray;
+  margin-left: 5px;
+}
+
+#main_web {
+  background-color: lightblue;
+}
+
+#mainer_web {
+  background-color: brown;
+  border: dotted 7px white;
+}
+
+#user-name {
+  margin-left: 10px;
+}
+
+#my-button {
+  color: darkblue;
+  background-color: turquoise;
+  margin-left: 10px;
+}
+
+#output {
+  color: darkgreen;
+  font-size: 150%;
+  margin-left: 15px;
+}
+
+p {
+  color: darkblue;
+  margin-left: 10px;
+}

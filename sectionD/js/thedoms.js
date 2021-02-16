@@ -11,3 +11,5 @@ divButton.onclick = function() {
   divEl.innerHTML = "This is more annoying than I thought! ";
 }
 document.body.appendChild(divButton);
+divButton.style.backgroundColor = "turquoise";
+divButton.className = "crunkards";
