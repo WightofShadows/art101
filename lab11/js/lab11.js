@@ -5,9 +5,9 @@
  **/
 
 // add buttons to the divs
-$("#challenges").append("<button type='submit'>Challenge Button</button>");
-$("#problems").append("<button type='submit'>Problem Button</button>");
-$("#results").append("<button type='submit'>Result Button</button>");
+$("#challenges").append("<button>Challenge Button</button>");
+$("#problems").append("<button>Problem Button</button>");
+$("#results").append("<button>Result Button</button>");
 
 // add click events to buttons
 $("#challenges").click(challengeButton);
