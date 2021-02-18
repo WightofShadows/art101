@@ -5,14 +5,14 @@
  **/
 
 // add buttons to the divs
-$("#challenges").append("<button>Challenge Button</button>");
-$("#problems").append("<button>Problem Button</button>");
-$("#results").append("<button>Result Button</button>");
+$("#challenges").append("<button id=c_button>Challenge Button</button>");
+$("#problems").append("<button id=p_button>Problem Button</button>");
+$("#results").append("<button id=r_button>Result Button</button>");
 
 // add click events to buttons
-$("#challenges").click(challengeButton);
-$("#problems").click(problemButton);
-$("#results").click(resultsButton);
+$("#c_button").click(challengeButton);
+$("#p_button").click(problemButton);
+$("#r_button").click(resultsButton);
 
 // toggle class special
 //function for button 1
