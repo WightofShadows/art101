@@ -1,0 +1,30 @@
+.special {
+  margin-left: 30px;
+  padding: 10px;
+  color: yellow;
+  font-size: 150%;
+  border: dotted 5px white;
+}
+
+#intro p {
+  color: white;
+}
+
+#intro h1 {
+  color: darkred;
+}
+
+#main_web {
+  background-color: gray;
+}
+
+#mainer_web {
+  background-color: lightgray;
+  border: solid 7px white;
+}
+
+#output {
+  color: purple;
+  font-size: 150%;
+  margin-left: 15px;
+}
