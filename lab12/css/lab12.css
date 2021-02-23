@@ -1,0 +1,41 @@
+.input-output {
+  margin-left: 40px;
+  padding: 10px;
+  color: gold;
+  font-size: 150%;
+  border: dotted 5px white;
+  background-color: saddlebrown;
+}
+
+p {
+  color: indigo;
+  margin-left: 15px;
+}
+
+h1 {
+  color: royalblue;
+  margin-left: 5px;
+}
+
+#borderland {
+  border: solid 6px midnightblue;
+}
+
+.input-output p {
+  color: cornsilk;
+}
+
+#button {
+  color: seagreen;
+  font-weight: bold;
+}
+
+#output {
+  color: gold;
+  font-size: 150%;
+  margin-left: 15px;
+}
+
+#mainweb {
+  background-color: tan;
+}
