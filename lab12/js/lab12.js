@@ -6,6 +6,7 @@
 
 //Conditionals
 //SortingHat function
+/*
 function sortingHat(str) {
   len = str.length;
   mod = len % 4;
@@ -21,6 +22,13 @@ function sortingHat(str) {
   else if (mod == 3) {
     return "Hufflepuff"
   }
+}
+*/
+
+function sortingHat(str) {
+  len = str.length;
+  var houseArray = ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"];
+  return houseArray[len % 4];
 }
 
 //Event Listener
