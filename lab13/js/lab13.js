@@ -17,6 +17,11 @@ function fizzBuzz() {
     if (num % 5 == 0) outputStr += "Buzz";
     //if multiple of 7, add Boom to outputStr
     if (num % 7 == 0) outputStr += "Boom";
+    //adds Steven to outputStr for every instance of 7 in num
+    var numArray = num.toString().split('');
+    for (var i=0; i<numArray.length; i++) {
+      if (numArray[i] == "7") outputStr += "Steven";
+    }
     //add extra elements to outputStr if not empty
     if (outputStr) outputStr = " - " + outputStr + "!";
     //append result to output div
