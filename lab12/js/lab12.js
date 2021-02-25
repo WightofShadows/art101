@@ -26,9 +26,8 @@ function sortingHat(str) {
 */
 
 function sortingHat(str) {
-  len = str.length;
   var houseArray = ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"];
-  return houseArray[len % 4];
+  return houseArray[str.length % 4];
 }
 
 //Event Listener
