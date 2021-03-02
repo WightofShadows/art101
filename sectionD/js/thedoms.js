@@ -26,6 +26,7 @@ for (var index=0; index<10; index++) {
 }*/
 
 // jquery version
+/*
 for (var index=0; index<100; index++) {
   //$("#container").append("<div class='box' id='box_id_" + (index+1) + "'>");
   if (index % 2 == 0)
@@ -35,3 +36,25 @@ for (var index=0; index<100; index++) {
   else
     $("#container").append(`<div class='box_odd' id='box_id_${index+1}'>`);
 }
+*/
+
+//keypress
+//substring
+var fullText = $("#original_text").text();
+$("#text_box").keyup(function() {
+  var input = $("#text_box").val();
+  var subStr = fullText.substring(0, input.length);
+  if (input.length > fullText.length) {
+    $("#text_box").css('border-color', 'grey');
+    $("#original_text").append("<p>OY! GET BACK 'ERE MAYTE!</p>");
+  }
+  else if (input == fullText) {
+    $("#text_box").css('border-color', 'green');
+  }
+  else if (input == subStr) {
+    $("#text_box").css('border-color', 'blue');
+  }
+  else {
+    $("#text_box").css('border-color', 'red');
+  }
+})

@@ -8,6 +8,7 @@
 }
 */
 
+/*
 .box_even {
   width: 50px;
   height: 50px;
@@ -30,4 +31,9 @@
   background-color: orange;
   border: solid 3px purple;
   float: left;
+}
+*/
+
+#text_box {
+  border: solid 10px grey;
 }

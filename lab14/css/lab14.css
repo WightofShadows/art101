@@ -1,0 +1,32 @@
+#mainland p {
+  color: slateblue;
+  margin-left: 30px;
+}
+
+a {
+  color: forestgreen;
+  margin-left: 80px;
+  font-style: italic;
+  font-size: 150%;
+}
+
+h1 {
+  color: firebrick;
+  margin-left: 15px;
+}
+
+#mainweb {
+  background-color: lightsalmon;
+}
+
+#output {
+  background-color: steelblue;
+  border: dashed 6px black;
+  color: springgreen;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#output p {
+  margin-left: 60px;
+}
