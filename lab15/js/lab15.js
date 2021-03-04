@@ -7,7 +7,7 @@
 // link ajax
 function ajaxButton() {
   $.ajax({
-    url: "https://numbersapi.com/random/year?json",
+    url: "http://numbersapi.com/random/year?json",
     data: {
     },
     type: "GET",
