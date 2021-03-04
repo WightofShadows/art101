@@ -58,3 +58,29 @@ $("#text_box").keyup(function() {
     $("#text_box").css('border-color', 'red');
   }
 })
+
+/*
+// Using the core $.ajax() method
+$.ajax({
+    // The URL for the request
+    url: "post.php",
+    // The data to send (will be converted to a query string)
+    data: { id: 123},
+    // Whether this is a POST or GET request
+    type: "GET",
+    // The type of data we expect back
+    dataType : "json",
+})
+
+$.ajax() {
+. . .
+}
+// If the request succeeds
+.done(function( json ) {
+    alert("Success!");
+})
+// If the request fails
+.fail(function( xhr, status, errorThrown ) {
+    console.log(errorThrown + " Status:" + status );
+});
+*/
