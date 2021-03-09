@@ -1,0 +1,40 @@
+#mainland p {
+  color: darkred;
+  margin-left: 30px;
+}
+
+a {
+  color: AliceBlue;
+  margin-left: 80px;
+  font-style: italic;
+  font-size: 150%;
+}
+
+h1 {
+  color: LemonChiffon;
+  margin-left: 15px;
+}
+
+#mainweb {
+  background-color: burlywood;
+  border: groove 20px linen;
+}
+
+#output {
+  background-color: crimson;
+  border: outset 6px PaleTurquoise;
+  color: snow;
+  font-weight: bold;
+  font-size: 125%;
+  text-align: center;
+}
+
+img,button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#output p {
+  margin-left: 60px;
+}

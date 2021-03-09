@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 16 - JSON and APIs</title>
+	<link rel="stylesheet" type="text/css" href="css/lab16.css">
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/lab16.js" defer></script>
+</head>
+<body id="mainweb">
+	<div id="mainland">
+		    <h1>Lab 16 - JSON and APIs</h1>
+		      <p>In this lab, we used AJAX to retrieve JSON data from the XKCD API.
+						Similar to the last lab, we used an API and tested its endpoint.
+						Once we collected the data from the endpoint using AJAX, we printed
+						the title, image, and alt text on our webpage.</p>
+		    <h1>Challenges</h1>
+		    <p>Like the last lab, we were very confused at first, but going over the
+					lecture and section material again cleared everything up. We realized
+					the exact end goal was to get information from the JSON tags and put
+					them into our own variables. This allowed us to complete the lab,
+					albeit, still with some struggles.</p>
+		    <h1>Problems</h1>
+		    <p>As said above, we had some problems at the beginning of the lab - we
+					didn’t really know what exactly we were doing at first. We thought
+					this was nearly the same as the last lab, where we had a button print
+					out the data/webpage, but thankfully, the lectures/section helped us
+					in understanding this lab. We also had some hiccups with the
+					Javascript, there was a lot of testing and debugging involved, moreso
+					compared to our other labs.</p>
+				<p>Near the end of the lab, we also ran into issues with having the
+					text appear when hovering over the image - instead of the full
+					sentence, it only printed the first two words. Again, this was a bit
+					puzzling, but Ethan realized that it was a problem with the string -
+					the apostrophes used in the alt “confused” the quotes, so to speak.
+					Ethan was able to identify this problem, and fixed it by flipping
+					the quotes and apostrophes.</p>
+		    <h1>Results</h1>
+        <p>Link to our javascript file:</p>
+          <a href="js/lab16.js" target="_blank">Javascript File</a>
+  </div>
+  <p>This is our output:</p>
+  <div id="output"></div>
+	<button id="prev_button">Prev</button>
+	<button id="next_button">Next</button>
+</body>
+</html>
